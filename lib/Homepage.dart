@@ -115,7 +115,7 @@ class _HomePageState extends State<HomePage> {
     final ethFunction = contract.function(functionName);
     snackBar(label: "Recording tranction");
     EthPrivateKey key = EthPrivateKey.fromHex(
-        "52bd70b92aa91ec932a6224dc9fad8b11b8fb22261bdcf9f74a2d9c560ffbd08");
+        "52b**************************************************8");
     Transaction transaction = await Transaction.callContract(
         contract: contract,
         function: ethFunction,
